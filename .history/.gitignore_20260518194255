@@ -216,18 +216,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-
-# Project raw data files
-data/raw/*
-!data/raw/
-!data/raw/olist/
-!data/raw/calendar/
-!data/raw/olist/.gitkeep
-!data/raw/calendar/.gitkeep
-
-# Local config files
-.env
-
-# VS Code settings
-.vscode/
