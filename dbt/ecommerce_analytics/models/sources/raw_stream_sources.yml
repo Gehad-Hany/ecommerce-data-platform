@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw_stream
+    database: ECOMMERCE_ANALYTICS_DB
+    schema: RAW_STREAM
+    tables:
+      - name: RAW_CUSTOMERS
+      - name: RAW_ORDERS
+      - name: RAW_ORDER_ITEMS
+      - name: RAW_PAYMENTS
+      - name: RAW_REVIEWS

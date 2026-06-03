@@ -231,3 +231,7 @@ data/raw/*
 
 # VS Code settings
 .vscode/
+
+# Airflow local runtime logs
+docker/airflow/logs/*
+!docker/airflow/logs/.gitkeep

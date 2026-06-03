@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_cdc
+    database: ECOMMERCE_ANALYTICS_DB
+    schema: RAW_CDC
+    tables:
+      - name: CUSTOMERS_CDC
+      - name: PRODUCTS_CDC
+      - name: SELLERS_CDC

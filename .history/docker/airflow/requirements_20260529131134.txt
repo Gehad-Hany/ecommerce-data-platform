@@ -1,0 +1,4 @@
+dbt-snowflake==1.9.3
+snowflake-connector-python[pandas]>=3.13.1
+python-dotenv
+pandas

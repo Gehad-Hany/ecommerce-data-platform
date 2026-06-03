@@ -1,0 +1,14 @@
+ecommerce_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'ACCOUNTADMIN') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'ECOMMERCE_INGEST_WH') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'ECOMMERCE_ANALYTICS_DB') }}"
+      schema: SILVER
+      threads: 2
+      client_session_keep_alive: false

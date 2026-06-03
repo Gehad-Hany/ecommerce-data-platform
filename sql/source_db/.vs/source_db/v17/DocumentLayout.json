@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\01_create_database.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:01_create_database.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\02_create_schemas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_create_schemas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\03_create_tables.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_create_tables.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\04_load_data_plan.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:04_load_data_plan.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\05_enable_cdc.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:05_enable_cdc.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "05_enable_cdc.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (75))",
+              "DocumentMoniker": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\05_enable_cdc.sql",
+              "RelativeDocumentMoniker": "05_enable_cdc.sql",
+              "ToolTip": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\05_enable_cdc.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (75))",
+              "RelativeToolTip": "05_enable_cdc.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (75))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-19T14:15:02.869Z",
+              "EditorCaption": " - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (75))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "04_load_data_plan.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (58))",
+              "DocumentMoniker": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\04_load_data_plan.sql",
+              "RelativeDocumentMoniker": "04_load_data_plan.sql",
+              "ToolTip": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\04_load_data_plan.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (58))",
+              "RelativeToolTip": "04_load_data_plan.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (58))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-19T14:07:43.344Z",
+              "EditorCaption": " - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (58))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "03_create_tables.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (60))",
+              "DocumentMoniker": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\03_create_tables.sql",
+              "RelativeDocumentMoniker": "03_create_tables.sql",
+              "ToolTip": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\03_create_tables.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (60))",
+              "RelativeToolTip": "03_create_tables.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (60))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-19T12:44:49.695Z",
+              "EditorCaption": " - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (60))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "02_create_schemas.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (65))",
+              "DocumentMoniker": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\02_create_schemas.sql",
+              "RelativeDocumentMoniker": "02_create_schemas.sql",
+              "ToolTip": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\02_create_schemas.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (65))",
+              "RelativeToolTip": "02_create_schemas.sql - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (65))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-19T12:43:04.372Z",
+              "EditorCaption": " - GEHAD\\MSSQLSERVER1.Ecommerce_Source_DB (GEHAD\\gehad (65))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "01_create_database.sql - GEHAD\\MSSQLSERVER1.master (GEHAD\\gehad (70))",
+              "DocumentMoniker": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\01_create_database.sql",
+              "RelativeDocumentMoniker": "01_create_database.sql",
+              "ToolTip": "D:\\ITI_tasks\\ecommerce-data-platform\\sql\\source_db\\01_create_database.sql - GEHAD\\MSSQLSERVER1.master (GEHAD\\gehad (70))",
+              "RelativeToolTip": "01_create_database.sql - GEHAD\\MSSQLSERVER1.master (GEHAD\\gehad (70))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-19T12:33:19.881Z",
+              "EditorCaption": " - GEHAD\\MSSQLSERVER1.master (GEHAD\\gehad (70))"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

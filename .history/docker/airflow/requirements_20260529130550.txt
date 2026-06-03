@@ -1,0 +1,7 @@
+dbt-snowflake==1.9.3
+dbt-core==1.9.3
+dbt-adapters==1.10.4
+dbt-common==1.10.0
+snowflake-connector-python==3.12.4
+python-dotenv
+pandas

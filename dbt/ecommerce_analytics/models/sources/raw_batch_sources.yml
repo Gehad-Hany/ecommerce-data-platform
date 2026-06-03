@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw_batch
+    database: ECOMMERCE_ANALYTICS_DB
+    schema: RAW_BATCH
+    tables:
+      - name: CUSTOMERS
+      - name: ORDERS
+      - name: ORDER_ITEMS
+      - name: ORDER_PAYMENTS
+      - name: ORDER_REVIEWS
+      - name: PRODUCTS
+      - name: SELLERS
+      - name: PRODUCT_CATEGORY_TRANSLATION
+      - name: GEOLOCATION
+      - name: ZIP_CODE_PREFIXES
+      - name: BRAZIL_HOLIDAYS
