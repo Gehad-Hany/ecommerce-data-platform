@@ -1,0 +1,29 @@
+{
+  "name": "debezium-sqlserver-ecommerce",
+  "config": {
+    "connector.class": "io.debezium.connector.sqlserver.SqlServerConnector",
+    "tasks.max": "1",
+    "database.hostname": "host.docker.internal",
+    "database.port": "1433",
+    "database.user": "debezium_user",
+    "database.password": "Debezium123!",
+    "database.names": "Ecommerce_Source_DB",
+    "database.encrypt": "false",
+    "database.trustServerCertificate": "true",
+    "topic.prefix": "ecommerce_cdc",
+    "table.include.list": "sales.orders,sales.customers,sales.order_items,sales.order_payments,sales.order_reviews,sales.products,sales.sellers,sales.product_category_translation,calendar.brazil_holidays",
+    "snapshot.mode": "schema_only",
+    "topic.creation.enable": "true",
+    "topic.creation.default.replication.factor": "1",
+    "topic.creation.default.partitions": "1",
+    "database.history.kafka.bootstrap.servers": "broker:29092",
+    "database.history.kafka.topic": "ecommerce_cdc.schema-history",
+    "schema.history.internal.kafka.bootstrap.servers": "broker:29092",
+    "schema.history.internal.kafka.topic": "ecommerce_cdc.schema-history-internal",
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "include.schema.changes": "true"
+  }
+}

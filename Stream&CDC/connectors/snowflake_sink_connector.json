@@ -1,0 +1,42 @@
+{
+  "name": "snowflake-sink-ecommerce-cdc",
+  "config": {
+    "connector.class": "com.snowflake.kafka.connector.SnowflakeSinkConnector",
+
+    "tasks.max": "4",
+
+    "topics": "ecommerce_cdc.Ecommerce_Source_DB.sales.orders,ecommerce_cdc.Ecommerce_Source_DB.sales.customers,ecommerce_cdc.Ecommerce_Source_DB.sales.order_items,ecommerce_cdc.Ecommerce_Source_DB.sales.order_payments,ecommerce_cdc.Ecommerce_Source_DB.sales.order_reviews,ecommerce_cdc.Ecommerce_Source_DB.sales.products,ecommerce_cdc.Ecommerce_Source_DB.sales.sellers,ecommerce_cdc.Ecommerce_Source_DB.sales.product_category_translation,ecommerce_cdc.Ecommerce_Source_DB.geolocation.geolocation,ecommerce_cdc.Ecommerce_Source_DB.calendar.brazil_holidays",
+
+    "snowflake.url.name": "https://KWURRMR-RQ00038.snowflakecomputing.com",
+
+    "snowflake.user.name": "Gehad",
+    "snowflake.private.key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDaFePfuAN5W+fA5mCtWrVjEtda39RozpADMn4s1GUbGVr4dJP46gY8F9hlVv9HaBqdLq2ECgWrHEwhr8JmBY2A6TBATBM3Bf/N/rJIwXADPHucdmDN++T9fcakb4DSbYmyKoHO2O7sfIDEKlFWN3D7cFsj2gSlOUWRp8JZphohhLOccMlTTLNnfJ1kznZmQuxuXJILD82r5JidN33hqdvdTY07dlsWa++zkHOLIvGN8ptVBuMR21JnI+jD0iwhkSrrMTDmfgg2JkF/efos5/DBmL3zPmbbhGvIjwkHmRYjMp0rzSE5eAnfMb/RnpAk5qoen0rMJB4Y8pNejABuV759AgMBAAECggEAFiQByf03EROVED7zUrYyUxgfGAFAYdGSylhOegOoLhuhYjcHrM4piuFK3WL7MMcvaITMJesUjz4ktojO/ieTKaLC/MwcaUopIcM5W2yUECgMTqKwCkmIAnpJ9/jABd0MDTQGkLbybrznH8NCFbQ0Orq57gZc0V9iojp7XzmfToan6VTUYfFuJVUYccmkImiPQBlh/vxBLI4KHtwipctGzVXEVfoZjnbVx6EaiHry2t7EUsMjr17i+v+FpgyGTY9PtWvi1WEpuvDMR3SnggYSAgwd2MerJXT0ZUKkExu3I9GhpmZzba/JtxlsVjKkrW28ULuz+k9L53AKcbVNHI7RewKBgQD0+myeYRfwNefqbHydr+sC3hoJ5B92O6R6B7awK9cF+GhC4iYsMR9wE23U3kD3pTozaGcZzszRn/f4DuRwzQIGnLb2K9l74r2CRDu8USXiJ2ptBCmiO19upH5NVxuuFDJLfZzBXTzTRcs2ZXxSNdxrPv8WRjJb32fBClSZGLvEZwKBgQDj5bmJDEL06e3lIMEy9K+wcJbKZMKWZHziszJetbEbjPTFO1fH6YkM5DkVY8dvIhVWVvQ5SM5ZnSfgGgSD5wN7nm1KqspxWaQlPaGWieql4qVJuUCsCNpezc0ApeXXCpDpvH+Gsk2qkfgm0rE5N7l5oKi9HMxVIua53i6PpLf3ewKBgQDy3rcCycWeywKSYV2mQ3rdi+4KslQStoyYwr72p2/0plJPRL+NfmHpjgmMSY/lNLSftLjKWECs7kg7cCBASK7ieUnWgqCJ9r/kvtruFxFUxbj4PXE9OlmhaokhCeQSUEmQmAbpmRMtbftKgZCgPG+7D2h737obZUAKnMBES8YTrwKBgHVsoLSkxLs87X7p6aI/wWbAHHIciMbE8DQ+8O0r4R24+0XE1e4DvsINtfv3dYMlpKjgFOaPRQOXnjwyK7FrDrhbYSTf63+MGK+3mdLfLTBcH55k/ZWm2h2PHNoAoPS0VQaaQXs91BbXL22Rkg9RTxgEV+1ZMU+MtCWA/ay1yrSRAoGBAIL7JJPViDexKtwSlz7bq2Sjnk8BAozf8OZFlfpcqQOZdxZe0xpsmGElj/WH/cSJD+IwnKzV4TSLeyK/6B/BLRhpezTdc55rLesQfKTHg9mnLEgVSAbqCdc+yk+nXE1TbIw4Weuy6NkqoBDh3SYdL3swWk4Rsvvh0ou5egx4IK+4",
+    "snowflake.password": "Gehad16220041622004",
+    "snowflake.role.name": "ACCOUNTADMIN",
+    "snowflake.warehouse.name": "ECOMMERCE_INGEST_WH",
+
+    "snowflake.database.name": "ECOMMERCE_ANALYTICS_DB",
+    "snowflake.schema.name": "RAW_CDC",
+
+    "snowflake.ingestion.method": "snowpipe_streaming",
+
+    "snowflake.topic2table.map":
+      "ecommerce_cdc.Ecommerce_Source_DB.sales.orders:ORDERS_CDC,ecommerce_cdc.Ecommerce_Source_DB.sales.customers:CUSTOMERS_CDC,ecommerce_cdc.Ecommerce_Source_DB.sales.order_items:ORDER_ITEMS_CDC,ecommerce_cdc.Ecommerce_Source_DB.sales.order_payments:ORDER_PAYMENTS_CDC,ecommerce_cdc.Ecommerce_Source_DB.sales.order_reviews:ORDER_REVIEWS_CDC,ecommerce_cdc.Ecommerce_Source_DB.sales.products:PRODUCTS_CDC,ecommerce_cdc.Ecommerce_Source_DB.sales.sellers:SELLERS_CDC,ecommerce_cdc.Ecommerce_Source_DB.sales.product_category_translation:PRODUCT_CAT_TRANSLATION_CDC,ecommerce_cdc.Ecommerce_Source_DB.geolocation.geolocation:GEOLOCATION_CDC,ecommerce_cdc.Ecommerce_Source_DB.calendar.brazil_holidays:BRAZIL_HOLIDAYS_CDC",
+
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter.schemas.enable": "false",
+
+    "buffer.count.records": "10000",
+    "buffer.flush.time": "10",
+    "buffer.size.bytes": "5000000",
+
+    "errors.tolerance": "all",
+    "errors.log.enable": "true",
+    "errors.log.include.messages": "true",
+
+    "errors.deadletterqueue.topic.name": "ecommerce_cdc.snowflake.dlq",
+    "errors.deadletterqueue.topic.replication.factor": "1"
+  }
+}
